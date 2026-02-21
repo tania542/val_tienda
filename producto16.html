@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesorios</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="stylesproduct.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="logo">
+
+                <div class="texto-logo">
+                    <h1>VAL</h1>
+                    <span>productos capilares</span>
+                </div>
+            </a>
+            <form action="#" method="get" class="buscar">
+                <input type="text" name="search" placeholder="Escribe tu búsqueda...">
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass lupa" style="color: #ffffff;"></i>
+                </button>
+            </form>
+            <div class="icons">
+                <a href="carrito.html"><i class="fa-solid fa-cart-shopping carrito-icono"
+                        style="color: #ffffff;"></i></a>
+                <a href="loguin.html"><i class="fa-solid fa-circle-user login-icono" style="color: #ffffff;"></i></a>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main class="producto">
+        <div class="imagenes">
+            <img src="img/img16.png" alt="">
+        </div>
+        <div class="informacion">
+            <h2>Shampoo de Miel Brillo Intenso</h2>
+            <h4> $ 44.000</h4>
+
+            <div class="detalles">
+                <h3>Detalles del Producto</h3>
+                <p> Espuma lujosa y suave que limpia sin resecar mientras potencia la nutrición y el brillo. Con alta concentración de vitaminas las cuales devuelven la luminosidad y vitalidad a la fibra, es ideal para cabellos tratados químicamente ya que no contiene sal ni parabenos, no afecta estos procedimientos, limpiando suavemente mientras nutre el cabello maltratado y seco debido a su fusión con aceite de argán y aminoácidos que ayudan a mantener el cuero cabelludo sano
+                    , una hebra con un brillo deslumbrante y una suavidad aterciopelada.</p>
+            </div>
+
+            <button>Agregar al Carrito</button>
+
+
+
+
+        </div>
+
+
+    </main>
+    <section class="comentarios-section">
+        <div class="comentarios-contenedor">
+            <h3>Comentarios</h3>
+
+            <div id="listaComentarios"></div>
+
+            <form id="formComentario">
+                <input type="text" id="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea id="textoComentario" placeholder="Escribe tu comentario..." required></textarea>
+                <button type="submit">Enviar comentario</button>
+            </form>
+        </div>
+    </section>
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 VAL DISTRIBUIDORA DE BELLEZA. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/cantidad.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,388 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdf6ec;
+    color: #2f3a44;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    background: #414e5e;
+    padding: 15px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.texto-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-logo h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 36px;
+    letter-spacing: 10px;
+    margin: 100;
+    color: #fee3b6;
+}
+
+/* productos capilares */
+.texto-logo span {
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-top: 4px;
+    color: #e6c48a;
+    font-weight: 300;
+}
+
+/* BUSCADOR */
+.buscar {
+    display: flex;
+}
+
+.buscar input {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    width: 220px;
+}
+
+.buscar button {
+    background: #414e5e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+/* ICONOS */
+.icons a {
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+/*barra*/
+.productos {
+    text-align: center;
+    padding: 60px 20px; 
+    background-color: #414e5e;
+    color: #e6c48a;
+    border-radius: 0; 
+}
+
+.productos h1 {
+    font-family: 'Cinzel', serif; 
+    font-size: 2.2rem; 
+    letter-spacing: 8px; 
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.productos h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: #fee3b6;
+    margin: 15px auto 0;
+    opacity: 0.6;
+}
+
+/*filtros*/
+.filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 20px;
+    flex-wrap: wrap;
+}
+
+.filtros select {
+    background-color: #414e5e;
+    color: #fee3b6;
+    border: 1px solid #fee3b6;
+    padding: 10px 40px 10px 18px; /* Más padding a la derecha para la flecha */
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 180px;
+
+    /* --- MAGIA PARA LA FLECHA --- */
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="%23fee3b6"><path d="M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 18px center;
+    background-size: 12px;
+}
+
+.filtros select:hover {
+    background-color: #fdf6ec;
+    color: #414e5e;
+}
+
+.filtros select:focus {
+    box-shadow: 0 0 12px rgba(254, 227, 182, 0.4);
+    transform: scale(1.02); 
+}
+
+/*menu*/
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 3 por fila */
+    gap: 30px;
+    padding: 40px;
+    background-color: #fdf6ec;
+}
+
+/* TARJETA */
+.tarjeta-producto {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Organiza contenido verticalmente */
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+.enlace-tarjeta {
+    flex-grow: 1; 
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta-producto:hover {
+    transform: translateY(-5px);
+}
+
+/* IMAGEN */
+.imagenes {
+    width: 100%;
+    height: 200%;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 10PX;
+}
+
+.imagenes img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* INFO */
+.info-producto {
+    font-family: 'Cinzel', serif;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.info-producto h2 {
+   color: #414e5e; 
+    font-size: 15px;
+}
+
+
+.info-producto h2:last-of-type {
+    color: #b8860b; /* Un dorado elegante para el precio */
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.tarjeta-producto a,
+.tarjeta-producto a h2 {
+    text-decoration: none; /* quita subrayado */
+    color: inherit;        /* mantiene el color del texto */
+}
+
+
+/* BOTÓN */
+.contenedor-boton {
+    padding: 0 20px 20px 20px; /* Margen interno para que no toque los bordes */
+}
+.btn-carrito {
+    background-color: #414e5e;
+    color: #fee3b6;
+    width: 100%; 
+    font-family: 'Cinzel', serif;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-carrito:hover {
+    background-color: #b84f6e;
+}
+
+footer {
+    background-color: #e9cbe0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Móviles */
+@media (max-width: 768px) {
+    .buscar {
+        max-width: 100%;
+        margin: 10px 0;
+        justify-content: center;
+    }
+
+
+    .producto {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 30px;
+    }
+
+    .productos {
+        padding-top: 160px;
+        font-size: 2rem;
+    }
+
+    .imagenes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagenes img,
+    .informacion,
+    .detalles {
+        width: 90%;
+        height: auto;
+        max-width: 100%;
+
+    }
+
+    .informacion {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .cantidad {
+        flex-direction: row;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .icons img {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    /* Ajuste general del nav */
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+/* Para celulares (máximo 480px) */
+@media (max-width: 480px) {
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .buscar input {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+    }
+
+    .informacion h2 {
+        font-size: 1.8rem;
+    }
+
+    .informacion h4 {
+        font-size: 1.5rem;
+    }
+
+    .detalles {
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .cantidad button {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+    }
+
+    .cantidad img {
+        width: 28px;
+        margin-top: 10px;
+    }
+
+    .imagenes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
