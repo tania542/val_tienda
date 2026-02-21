@@ -71,11 +71,12 @@
 
             <div id="listaComentarios"></div>
 
-            <form id="formComentario" method="POST" action="guardar_comentario.php">
-                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea name="textoComentario" id="textoComentario" placeholder="Escribe tu comentario..."
-                    required></textarea>
-                <button type="submit">Enviar comentario</button>
+            <form action="guardar_comentario.php" method="POST">
+                <input type="hidden" name="id_producto" value="1">
+
+                <input type="text" name="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea name="textoComentario" placeholder="Escribe tu opinión" required></textarea>
+                <button type="submit">Enviar Comentario</button>
             </form>
         </div>
 
