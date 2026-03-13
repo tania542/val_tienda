@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,16 +41,16 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img14.png" alt="">
+            <img src="img/img7.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Shampoo Control Grasa</h2>
-            <h4> $ 37.500</h4>
+            <h2>Booster Tratamiento Capilar Reparador</h2>
+            <h4> $ 35.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> Es un shampoo especializado para cueros cabelludos con tendencia a la grasa. Su fórmula combina Bicarbonato de Sodio y Bioactivos Marinos para regular el exceso de sebo, calmar irritaciones y brindar una limpieza profunda sin comprometer la salud del cabello. El resultado: un cuero cabelludo purificado
-                    , equilibrado y un cabello visiblemente más ligero y brillante.</p>
+                <p> Es un tratamiento capilar concentrado que repara, hidrata y fortalece el cabello en solo 2 minutos. Con tecnología avanzada de lípidos y ácido hialurónico, actúa como tratamiento independiente o potenciador al mezclarse con mascarillas, cremas o aceites. Ideal para quienes
+                     buscan resultados visibles en poco tiempo, sin complicaciones y con múltiples beneficios.</p>
             </div>
 
             <button>Agregar al Carrito</button>

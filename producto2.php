@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,16 +41,18 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img10.png" alt="">
+            <img src="img/img2.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Energetizante Capilar</h2>
-            <h4> $ 46.000</h4>
+            <h2>Acondicionador con Romero</h2>
+            <h4> $ 40.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> El Energizante Capilar Click Hair es una mascarilla capilar estimulante de alto rendimiento que actúa como un verdadero Red Bull para el cabello. Su fórmula avanzada, rica en proteínas y aminoácidos, acelera los procesos metabólicos del cuero cabelludo y la fibra capilar, favoreciendo el crecimiento saludable, 
-                    la regeneración celular y una reparación extrema desde la raíz hasta las puntas.</p>
+                <p>Perfecto para el crecimiento y brillo soñado para tu cabello
+
+                    Hidrata y estimula el cabello, contiene Ácido hialurónico, delicioso aroma y refrescante
+                    500ml</p>
             </div>
 
             <button>Agregar al Carrito</button>
@@ -63,17 +65,19 @@
 
     </main>
     <section class="comentarios-section">
-        <div class="comentarios-contenedor">
+       <div class="comentarios-contenedor">
             <h3>Comentarios</h3>
 
             <div id="listaComentarios"></div>
 
-            <form id="formComentario">
-                <input type="text" id="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea id="textoComentario" placeholder="Escribe tu comentario..." required></textarea>
+            <form id="formComentario" method="POST" action="guardar_comentario.php">
+                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea name="textoComentario" id="textoComentario" placeholder="Escribe tu comentario..."
+                    required></textarea>
                 <button type="submit">Enviar comentario</button>
             </form>
         </div>
+
     </section>
     <!-- Pie de página -->
     <footer>

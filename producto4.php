@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,15 +41,17 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img21.png" alt="">
+            <img src="img/img4.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Terapia Capilar de Crecimiento Anyeluz</h2>
-            <h4> $ 46.000</h4>
+            <h2>Acondicionador Reparador SOS Kaba 450 ml</h2>
+            <h4> $ 80.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> La Terapia Capilar de crecimiento de Anyeluz aportaran efectos, benéficos, al cabello como: el crecimiento, hidratación, fortalecimiento de la estructura capilar, protección color y reparación de daño en la superficie. Aumentando la resistencia, brillo, peinabilidad aportando apariencia sedosa y crecimiento del cabello.</p>
+                <p> ¡Nuestro Acondicionador al rescate de tu cabello!
+Funciona como una curita para reparar los daños, está diseñado especialmente para reconectar los enlaces rotos del cabello seco y maltratado en procesos químicos como decoloraciones, tinturas o uso excesivo de herramientas de calor. Nutre la fibra capilar, suaviza, da manejabilidad humecta y disminuye el frizz.
+¡Es mejor que cualquier plex!</p>
             </div>
 
             <button>Agregar al Carrito</button>
@@ -67,12 +69,14 @@
 
             <div id="listaComentarios"></div>
 
-            <form id="formComentario">
-                <input type="text" id="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea id="textoComentario" placeholder="Escribe tu comentario..." required></textarea>
+            <form id="formComentario" method="POST" action="guardar_comentario.php">
+                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea name="textoComentario" id="textoComentario" placeholder="Escribe tu comentario..."
+                    required></textarea>
                 <button type="submit">Enviar comentario</button>
             </form>
         </div>
+
     </section>
     <!-- Pie de página -->
     <footer>

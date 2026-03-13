@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,18 +41,16 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img2.png" alt="">
+            <img src="img/img14.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Acondicionador con Romero</h2>
-            <h4> $ 40.000</h4>
+            <h2>Shampoo Control Grasa</h2>
+            <h4> $ 37.500</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p>Perfecto para el crecimiento y brillo soñado para tu cabello
-
-                    Hidrata y estimula el cabello, contiene Ácido hialurónico, delicioso aroma y refrescante
-                    500ml</p>
+                <p> Es un shampoo especializado para cueros cabelludos con tendencia a la grasa. Su fórmula combina Bicarbonato de Sodio y Bioactivos Marinos para regular el exceso de sebo, calmar irritaciones y brindar una limpieza profunda sin comprometer la salud del cabello. El resultado: un cuero cabelludo purificado
+                    , equilibrado y un cabello visiblemente más ligero y brillante.</p>
             </div>
 
             <button>Agregar al Carrito</button>
@@ -65,19 +63,17 @@
 
     </main>
     <section class="comentarios-section">
-       <div class="comentarios-contenedor">
+        <div class="comentarios-contenedor">
             <h3>Comentarios</h3>
 
             <div id="listaComentarios"></div>
 
-            <form id="formComentario" method="POST" action="guardar_comentario.php">
-                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea name="textoComentario" id="textoComentario" placeholder="Escribe tu comentario..."
-                    required></textarea>
+            <form id="formComentario">
+                <input type="text" id="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea id="textoComentario" placeholder="Escribe tu comentario..." required></textarea>
                 <button type="submit">Enviar comentario</button>
             </form>
         </div>
-
     </section>
     <!-- Pie de página -->
     <footer>

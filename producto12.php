@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,17 +41,19 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img4.png" alt="">
+            <img src="img/img12.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Acondicionador Reparador SOS Kaba 450 ml</h2>
-            <h4> $ 80.000</h4>
+            <h2>Miel para el Cabello 50ml</h2>
+            <h4> $ 60.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> ¡Nuestro Acondicionador al rescate de tu cabello!
-Funciona como una curita para reparar los daños, está diseñado especialmente para reconectar los enlaces rotos del cabello seco y maltratado en procesos químicos como decoloraciones, tinturas o uso excesivo de herramientas de calor. Nutre la fibra capilar, suaviza, da manejabilidad humecta y disminuye el frizz.
-¡Es mejor que cualquier plex!</p>
+                <p> CLICK HAIR Miel para el Cabello es un tratamiento capilar nutritivo que ayuda a hidratar, suavizar y
+                    revitalizar la fibra capilar
+                    Su fórmula enriquecida con miel aporta brillo natural, mejora la manejabilidad y ayuda a proteger el
+                    cabello del resecamiento, dejándolo más flexible, sedoso y con una apariencia saludable.
+                    Ideal para cabellos opacos, secos o maltratados.</p>
             </div>
 
             <button>Agregar al Carrito</button>
@@ -69,14 +71,12 @@ Funciona como una curita para reparar los daños, está diseñado especialmente 
 
             <div id="listaComentarios"></div>
 
-            <form id="formComentario" method="POST" action="guardar_comentario.php">
-                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea name="textoComentario" id="textoComentario" placeholder="Escribe tu comentario..."
-                    required></textarea>
+            <form id="formComentario">
+                <input type="text" id="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea id="textoComentario" placeholder="Escribe tu comentario..." required></textarea>
                 <button type="submit">Enviar comentario</button>
             </form>
         </div>
-
     </section>
     <!-- Pie de página -->
     <footer>

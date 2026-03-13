@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,17 +41,17 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img15.png" alt="">
+            <img src="img/img18.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Shampoo Crecimiento y Control Caída</h2>
-            <h4> $ 45.000</h4>
+            <h2>Shampoo Vegan Keratin 1l</h2>
+            <h4> $ 35.900</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> Es un shampoo estimulante con tecnología bioactiva que actúa directamente sobre el cuero cabelludo para reactivar los folículos capilares, detener la caída en un 81% y promover un crecimiento continuo, fuerte y saludable. 
-Su fórmula está enriquecida con activos naturales como Ají, Jengibre y Trébol Rojo y cuenta con un alto índice de biodegradabilidad, siendo eficaz y respe
-tuoso con el medio ambiente.</p>
+                <p> Limpia y recupera la hidratación del cabello.Nutre y fortalece la fibra capilar y deja el cabello
+                     limpio, hidratado, sano, fuerte, suave y brillante.Producto vegano. No testeado en animales.*Sin adición de Parabenos, Siliconas, 
+                     y Sal (Cloruro de Sodio)</p>
             </div>
 
             <button>Agregar al Carrito</button>

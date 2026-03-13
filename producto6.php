@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,19 +41,16 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img9.png" alt="">
+            <img src="img/img6.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Duo de Miel Brillo Intenso</h2>
-            <h4> $ 117.200</h4>
+            <h2>Bioterapia Capilar con Romero y Bioelixir</h2>
+            <h4> $ 43.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> Una crema para peinar multifuncional diseñada para aportar hidratación
-                    , suavidad y control al cabello desde el primer uso. Su fórmula ligera y 
-                    adaptativa permite usarla tanto en cueros cabelludos secos como grasos, 
-                    ayudando a mejorar la definición, la manejabilidad y la salud capilar en 
-                    la rutina diaria.</p>
+                <p> Contiene extractos de romero y de aguacate más un complejo de aminoácidos que aportan crecimiento, hidratación y fortalecimiento de la fibra capilar. Ideal para reparación de daño en la superficie. Contiene un extraordinario sistema de nutrición que combate la resequedad capilar, 
+                    aporta brillo, luminosidad, sedosidad y vitalidad al cabello.</p>
             </div>
 
             <button>Agregar al Carrito</button>

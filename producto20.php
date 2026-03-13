@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,15 +41,16 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img3.png" alt="">
+            <img src="img/img20.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Acondicionador Kerat Ultra Force 300ml</h2>
-            <h4> $ 39.900</h4>
+            <h2>Suero Reconstructor</h2>
+            <h4> $ 38.900</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p>Recupera la hidratación y suavidad del cabello. Su combinación de tres ingredientes emolientes: aceite de argán, macadamia y pracaxi facilitan el peinado del cabello seco o húmedo; aumenta el brillo, brinda nutrición profunda y protección térmica a la fibra capilar</p>
+                <p> Este sérum ofrece una protección integral que ayuda a mantener la salud y belleza del cabello en todo momento. Protege eficazmente contra los rayos UV y las altas temperaturas generadas por herramientas térmicas, evitando el debilitamiento
+                     de la fibra capilar.</p>
             </div>
 
             <button>Agregar al Carrito</button>
@@ -61,20 +62,18 @@
 
 
     </main>
-   <section class="comentarios-section">
+    <section class="comentarios-section">
         <div class="comentarios-contenedor">
             <h3>Comentarios</h3>
 
             <div id="listaComentarios"></div>
 
-            <form id="formComentario" method="POST" action="guardar_comentario.php">
-                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea name="textoComentario" id="textoComentario" placeholder="Escribe tu comentario..."
-                    required></textarea>
+            <form id="formComentario">
+                <input type="text" id="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea id="textoComentario" placeholder="Escribe tu comentario..." required></textarea>
                 <button type="submit">Enviar comentario</button>
             </form>
         </div>
-
     </section>
     <!-- Pie de página -->
     <footer>

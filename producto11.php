@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,17 +41,16 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img17.png" alt="">
+            <img src="img/img11.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Shampoo Reparador SOS 450ml</h2>
-            <h4> $ 80.000</h4>
+            <h2>Mask Vegan Keratin Recamier 500g</h2>
+            <h4> $ 46.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> ¡Es el producto que hará que tu cabello brille nuevamente!
-Nuestro Shampoo SOS está diseñado para limpiar el cabello suavemente, dejándolo super hidratado y sin suciedad. Ha sido desarrollado especialmente para cabellos secos o que han pasado por daños causados en procesos de decoloración, tinturas o demás procedimientos químicos. Evita resequedad y además fortalece y repara las fibras capilares. Reconecta los enlaces rotos del cabello maltratado reparando las hebras y dejándolo
-, más brillante y sano con cada uso.</p>
+                <p> Mascarilla intensiva diseñada para reparar el cabello seco o maltratado desde la primera aplicación. Con 10 ingredientes de origen vegetal que dejan el cabello reparado profundamente, hidratado, nutrido, sano, fuerte, suave y brillante.1. Keratina Vegana 2. Colágeno Vegano 3. Biotina 4. Sábila 5. Aceite de Argán 6. Aceite de Coco 7. Aceite de Macadamia 
+                    8. Aceite de Aguacate 9. Hidrolizado de Proteína de Trigo 10. Vitamina E.</p>
             </div>
 
             <button>Agregar al Carrito</button>

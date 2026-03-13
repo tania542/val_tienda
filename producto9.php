@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,16 +41,19 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img19.png" alt="">
+            <img src="img/img9.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Shampoo Anticaspa</h2>
-            <h4> $ 40.000</h4>
+            <h2>Duo de Miel Brillo Intenso</h2>
+            <h4> $ 117.200</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> Una fórmula única para el tratamiento de la caspa y estados descamativos del cuero cabelludo la encuentras en el SHAMPOO ANTICASPA de Anyeluz, completamente sin sal con una composición a base de extractos naturales como el extracto de ají, limón, ortiga y tomillo junto con el Piritionato de Zinc, reducen la descamación, hidratando y protegiendo el cabello y
-                     el cuero cabelludo. Se puede usar en niños.</p>
+                <p> Una crema para peinar multifuncional diseñada para aportar hidratación
+                    , suavidad y control al cabello desde el primer uso. Su fórmula ligera y 
+                    adaptativa permite usarla tanto en cueros cabelludos secos como grasos, 
+                    ayudando a mejorar la definición, la manejabilidad y la salud capilar en 
+                    la rutina diaria.</p>
             </div>
 
             <button>Agregar al Carrito</button>

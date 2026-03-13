@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,19 +41,18 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img12.png" alt="">
+            <img src="img/img5.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Miel para el Cabello 50ml</h2>
-            <h4> $ 60.000</h4>
+            <h2>Biomascarilla Capilar</h2>
+            <h4> $ 45.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> CLICK HAIR Miel para el Cabello es un tratamiento capilar nutritivo que ayuda a hidratar, suavizar y
-                    revitalizar la fibra capilar
-                    Su fórmula enriquecida con miel aporta brillo natural, mejora la manejabilidad y ayuda a proteger el
-                    cabello del resecamiento, dejándolo más flexible, sedoso y con una apariencia saludable.
-                    Ideal para cabellos opacos, secos o maltratados.</p>
+                <p> ¡Crecimiento del cabello clínicamente demostrado!
+Biomascarilla capilar que estimula el crecimiento de tu cabello, ayuda a disminuir la caída y repara la fibra capilar.
+No tiene ninguna contraindicación en personas embarazadas o bebés.
+Cuenta con un estudio clínico que certifica que estimula el crecimiento del cabello con su uso constante.</p>
             </div>
 
             <button>Agregar al Carrito</button>
@@ -71,12 +70,14 @@
 
             <div id="listaComentarios"></div>
 
-            <form id="formComentario">
-                <input type="text" id="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea id="textoComentario" placeholder="Escribe tu comentario..." required></textarea>
+            <form id="formComentario" method="POST" action="guardar_comentario.php">
+                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea name="textoComentario" id="textoComentario" placeholder="Escribe tu comentario..."
+                    required></textarea>
                 <button type="submit">Enviar comentario</button>
             </form>
         </div>
+
     </section>
     <!-- Pie de página -->
     <footer>

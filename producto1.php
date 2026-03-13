@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,16 +41,19 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img11.png" alt="">
+            <img src="img/img1.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Mask Vegan Keratin Recamier 500g</h2>
-            <h4> $ 46.000</h4>
+            <h2>Acondicionador de Ceramidas Kaba 500 mL</h2>
+            <h4> $ 40.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> Mascarilla intensiva diseñada para reparar el cabello seco o maltratado desde la primera aplicación. Con 10 ingredientes de origen vegetal que dejan el cabello reparado profundamente, hidratado, nutrido, sano, fuerte, suave y brillante.1. Keratina Vegana 2. Colágeno Vegano 3. Biotina 4. Sábila 5. Aceite de Argán 6. Aceite de Coco 7. Aceite de Macadamia 
-                    8. Aceite de Aguacate 9. Hidrolizado de Proteína de Trigo 10. Vitamina E.</p>
+                <p>¡La hidratación en tu cabello comienza en la ducha!
+                    Acondicionador con ceramidas que ayudan al cabello a mantenerlo hidratado evitando que pierda agua.
+                    Es el complemento perfecto de tu rutina capilar, ayuda a que mantengas tu cabello hidratado y
+                    sedoso.
+                    Nueva fragancia: Tropical con notas de coco y piña.</p>
             </div>
 
             <button>Agregar al Carrito</button>
@@ -68,12 +71,15 @@
 
             <div id="listaComentarios"></div>
 
-            <form id="formComentario">
-                <input type="text" id="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea id="textoComentario" placeholder="Escribe tu comentario..." required></textarea>
-                <button type="submit">Enviar comentario</button>
+            <form action="guardar_comentario.php" method="POST">
+                <input type="hidden" name="id_producto" value="1">
+
+                <input type="text" name="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea name="textoComentario" placeholder="Escribe tu opinión" required></textarea>
+                <button type="submit">Enviar Comentario</button>
             </form>
         </div>
+
     </section>
     <!-- Pie de página -->
     <footer>

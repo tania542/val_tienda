@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,19 +41,19 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img1.png" alt="">
+            <img src="img/img8.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Acondicionador de Ceramidas Kaba 500 mL</h2>
-            <h4> $ 40.000</h4>
+            <h2>Crema Dual para Peinar</h2>
+            <h4> $ 35.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p>¡La hidratación en tu cabello comienza en la ducha!
-                    Acondicionador con ceramidas que ayudan al cabello a mantenerlo hidratado evitando que pierda agua.
-                    Es el complemento perfecto de tu rutina capilar, ayuda a que mantengas tu cabello hidratado y
-                    sedoso.
-                    Nueva fragancia: Tropical con notas de coco y piña.</p>
+                <p> Una crema para peinar multifuncional diseñada para aportar hidratación
+                    , suavidad y control al cabello desde el primer uso. Su fórmula ligera y 
+                    adaptativa permite usarla tanto en cueros cabelludos secos como grasos, 
+                    ayudando a mejorar la definición, la manejabilidad y la salud capilar en 
+                    la rutina diaria.</p>
             </div>
 
             <button>Agregar al Carrito</button>
@@ -71,15 +71,12 @@
 
             <div id="listaComentarios"></div>
 
-            <form action="guardar_comentario.php" method="POST">
-                <input type="hidden" name="id_producto" value="1">
-
-                <input type="text" name="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea name="textoComentario" placeholder="Escribe tu opinión" required></textarea>
-                <button type="submit">Enviar Comentario</button>
+            <form id="formComentario">
+                <input type="text" id="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea id="textoComentario" placeholder="Escribe tu comentario..." required></textarea>
+                <button type="submit">Enviar comentario</button>
             </form>
         </div>
-
     </section>
     <!-- Pie de página -->
     <footer>

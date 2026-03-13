@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,18 +41,16 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img5.png" alt="">
+            <img src="img/img22.jpg" alt="">
         </div>
         <div class="informacion">
-            <h2>Biomascarilla Capilar</h2>
-            <h4> $ 45.000</h4>
+            <h2>Tratamiento Vegan Keratin Semi Di Lino</h2>
+            <h4> $ 48.900</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> ¡Crecimiento del cabello clínicamente demostrado!
-Biomascarilla capilar que estimula el crecimiento de tu cabello, ayuda a disminuir la caída y repara la fibra capilar.
-No tiene ninguna contraindicación en personas embarazadas o bebés.
-Cuenta con un estudio clínico que certifica que estimula el crecimiento del cabello con su uso constante.</p>
+                <p> El Tratamiento Keratina de Semillas de Lino Recamier Salon In es un tratamiento sin enjuague protector, nutritivo y vigorizante de los cabellos secos y maltratados. Nutre y fortalece la fibra capilar, mejora su textura y deja el cabello sedoso, hidratado, sano, fuerte, suave y brillante. Producto vegano
+                    . No testeado en animales.</p>
             </div>
 
             <button>Agregar al Carrito</button>
@@ -70,14 +68,12 @@ Cuenta con un estudio clínico que certifica que estimula el crecimiento del cab
 
             <div id="listaComentarios"></div>
 
-            <form id="formComentario" method="POST" action="guardar_comentario.php">
-                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea name="textoComentario" id="textoComentario" placeholder="Escribe tu comentario..."
-                    required></textarea>
+            <form id="formComentario">
+                <input type="text" id="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea id="textoComentario" placeholder="Escribe tu comentario..." required></textarea>
                 <button type="submit">Enviar comentario</button>
             </form>
         </div>
-
     </section>
     <!-- Pie de página -->
     <footer>

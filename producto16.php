@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,16 +41,16 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img20.png" alt="">
+            <img src="img/img16.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Suero Reconstructor</h2>
-            <h4> $ 38.900</h4>
+            <h2>Shampoo de Miel Brillo Intenso</h2>
+            <h4> $ 44.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> Este sérum ofrece una protección integral que ayuda a mantener la salud y belleza del cabello en todo momento. Protege eficazmente contra los rayos UV y las altas temperaturas generadas por herramientas térmicas, evitando el debilitamiento
-                     de la fibra capilar.</p>
+                <p> Espuma lujosa y suave que limpia sin resecar mientras potencia la nutrición y el brillo. Con alta concentración de vitaminas las cuales devuelven la luminosidad y vitalidad a la fibra, es ideal para cabellos tratados químicamente ya que no contiene sal ni parabenos, no afecta estos procedimientos, limpiando suavemente mientras nutre el cabello maltratado y seco debido a su fusión con aceite de argán y aminoácidos que ayudan a mantener el cuero cabelludo sano
+                    , una hebra con un brillo deslumbrante y una suavidad aterciopelada.</p>
             </div>
 
             <button>Agregar al Carrito</button>

@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,19 +41,15 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img8.png" alt="">
+            <img src="img/img21.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Crema Dual para Peinar</h2>
-            <h4> $ 35.000</h4>
+            <h2>Terapia Capilar de Crecimiento Anyeluz</h2>
+            <h4> $ 46.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> Una crema para peinar multifuncional diseñada para aportar hidratación
-                    , suavidad y control al cabello desde el primer uso. Su fórmula ligera y 
-                    adaptativa permite usarla tanto en cueros cabelludos secos como grasos, 
-                    ayudando a mejorar la definición, la manejabilidad y la salud capilar en 
-                    la rutina diaria.</p>
+                <p> La Terapia Capilar de crecimiento de Anyeluz aportaran efectos, benéficos, al cabello como: el crecimiento, hidratación, fortalecimiento de la estructura capilar, protección color y reparación de daño en la superficie. Aumentando la resistencia, brillo, peinabilidad aportando apariencia sedosa y crecimiento del cabello.</p>
             </div>
 
             <button>Agregar al Carrito</button>

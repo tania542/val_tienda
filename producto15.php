@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,16 +41,17 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img22.jpg" alt="">
+            <img src="img/img15.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Tratamiento Vegan Keratin Semi Di Lino</h2>
-            <h4> $ 48.900</h4>
+            <h2>Shampoo Crecimiento y Control Caída</h2>
+            <h4> $ 45.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> El Tratamiento Keratina de Semillas de Lino Recamier Salon In es un tratamiento sin enjuague protector, nutritivo y vigorizante de los cabellos secos y maltratados. Nutre y fortalece la fibra capilar, mejora su textura y deja el cabello sedoso, hidratado, sano, fuerte, suave y brillante. Producto vegano
-                    . No testeado en animales.</p>
+                <p> Es un shampoo estimulante con tecnología bioactiva que actúa directamente sobre el cuero cabelludo para reactivar los folículos capilares, detener la caída en un 81% y promover un crecimiento continuo, fuerte y saludable. 
+Su fórmula está enriquecida con activos naturales como Ají, Jengibre y Trébol Rojo y cuenta con un alto índice de biodegradabilidad, siendo eficaz y respe
+tuoso con el medio ambiente.</p>
             </div>
 
             <button>Agregar al Carrito</button>

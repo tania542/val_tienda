@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,16 +41,16 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img6.png" alt="">
+            <img src="img/img10.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Bioterapia Capilar con Romero y Bioelixir</h2>
-            <h4> $ 43.000</h4>
+            <h2>Energetizante Capilar</h2>
+            <h4> $ 46.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> Contiene extractos de romero y de aguacate más un complejo de aminoácidos que aportan crecimiento, hidratación y fortalecimiento de la fibra capilar. Ideal para reparación de daño en la superficie. Contiene un extraordinario sistema de nutrición que combate la resequedad capilar, 
-                    aporta brillo, luminosidad, sedosidad y vitalidad al cabello.</p>
+                <p> El Energizante Capilar Click Hair es una mascarilla capilar estimulante de alto rendimiento que actúa como un verdadero Red Bull para el cabello. Su fórmula avanzada, rica en proteínas y aminoácidos, acelera los procesos metabólicos del cuero cabelludo y la fibra capilar, favoreciendo el crecimiento saludable, 
+                    la regeneración celular y una reparación extrema desde la raíz hasta las puntas.</p>
             </div>
 
             <button>Agregar al Carrito</button>

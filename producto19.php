@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,16 +41,16 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img7.png" alt="">
+            <img src="img/img19.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Booster Tratamiento Capilar Reparador</h2>
-            <h4> $ 35.000</h4>
+            <h2>Shampoo Anticaspa</h2>
+            <h4> $ 40.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> Es un tratamiento capilar concentrado que repara, hidrata y fortalece el cabello en solo 2 minutos. Con tecnología avanzada de lípidos y ácido hialurónico, actúa como tratamiento independiente o potenciador al mezclarse con mascarillas, cremas o aceites. Ideal para quienes
-                     buscan resultados visibles en poco tiempo, sin complicaciones y con múltiples beneficios.</p>
+                <p> Una fórmula única para el tratamiento de la caspa y estados descamativos del cuero cabelludo la encuentras en el SHAMPOO ANTICASPA de Anyeluz, completamente sin sal con una composición a base de extractos naturales como el extracto de ají, limón, ortiga y tomillo junto con el Piritionato de Zinc, reducen la descamación, hidratando y protegiendo el cabello y
+                     el cuero cabelludo. Se puede usar en niños.</p>
             </div>
 
             <button>Agregar al Carrito</button>

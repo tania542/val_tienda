@@ -15,7 +15,7 @@
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
@@ -41,17 +41,17 @@
 
     <main class="producto">
         <div class="imagenes">
-            <img src="img/img18.png" alt="">
+            <img src="img/img17.png" alt="">
         </div>
         <div class="informacion">
-            <h2>Shampoo Vegan Keratin 1l</h2>
-            <h4> $ 35.900</h4>
+            <h2>Shampoo Reparador SOS 450ml</h2>
+            <h4> $ 80.000</h4>
 
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
-                <p> Limpia y recupera la hidratación del cabello.Nutre y fortalece la fibra capilar y deja el cabello
-                     limpio, hidratado, sano, fuerte, suave y brillante.Producto vegano. No testeado en animales.*Sin adición de Parabenos, Siliconas, 
-                     y Sal (Cloruro de Sodio)</p>
+                <p> ¡Es el producto que hará que tu cabello brille nuevamente!
+Nuestro Shampoo SOS está diseñado para limpiar el cabello suavemente, dejándolo super hidratado y sin suciedad. Ha sido desarrollado especialmente para cabellos secos o que han pasado por daños causados en procesos de decoloración, tinturas o demás procedimientos químicos. Evita resequedad y además fortalece y repara las fibras capilares. Reconecta los enlaces rotos del cabello maltratado reparando las hebras y dejándolo
+, más brillante y sano con cada uso.</p>
             </div>
 
             <button>Agregar al Carrito</button>
