@@ -8,6 +8,7 @@ $productos = mysqli_query($conexion, "SELECT * FROM productos");
 <head>
     <meta charset="UTF-8">
     <title>Admin VAL - Gestión</title>
+
     <style>
         body { font-family: sans-serif; background: #f4f4f4; padding: 20px; }
         .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
@@ -20,14 +21,17 @@ $productos = mysqli_query($conexion, "SELECT * FROM productos");
 </head>
 <body>
     <div class="container">
+
+        <a href="logout.php" style="float:right;">Cerrar sesión</a>
         <h1>Sistema de Administración VAL</h1>
-        
         <h3>1. Agregar Nuevo Producto</h3>
         <form action="insertar_producto.php" method="POST" enctype="multipart/form-data">
+            <input type="number" name="ID" placeholder="ID" required>
             <input type="text" name="nombre" placeholder="Nombre" required>
             <input type="number" name="precio" placeholder="Precio" required>
             <input type="text" name="marca" placeholder="Marca">
-            <input type="file" name="imagen" required>
+            <input type="text" name="categoria" placeholder="Categoria">
+            <input type="file" name="imagen" >
             <button type="submit">Subir a la Base de Datos</button>
         </form>
 
@@ -38,6 +42,7 @@ $productos = mysqli_query($conexion, "SELECT * FROM productos");
                 <th>Producto</th>
                 <th>Precio</th>
                 <th>Marca</th>
+                <th>Categoria</th>
                 <th>Acciones</th>
             </tr>
             <?php while($p = mysqli_fetch_assoc($productos)) { ?>
@@ -46,7 +51,9 @@ $productos = mysqli_query($conexion, "SELECT * FROM productos");
                 <td><?php echo $p['nombre']; ?></td>
                 <td>$<?php echo number_format($p['precio'], 0, ',', '.'); ?></td>
                 <td><?php echo $p['marca']; ?></td>
+                <td><?php echo $p['categoria']; ?></td>
                 <td>
+                    <a href="editar_producto.php?id=<?php echo $p['id']; ?>" style="color:blue;">Editar</a> |
                     <a href="eliminar.php?id=<?php echo $p['id']; ?>" style="color:red;">Eliminar</a>
                 </td>
             </tr>
@@ -54,4 +61,5 @@ $productos = mysqli_query($conexion, "SELECT * FROM productos");
         </table>
     </div>
 </body>
+
 </html>

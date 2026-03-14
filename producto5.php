@@ -32,7 +32,7 @@
             <div class="icons">
                 <a href="carrito.html"><i class="fa-solid fa-cart-shopping carrito-icono"
                         style="color: #ffffff;"></i></a>
-                <a href="loguin.html"><i class="fa-solid fa-circle-user login-icono" style="color: #ffffff;"></i></a>
+                <a href="login.php"><i class="fa-solid fa-circle-user login-icono" style="color: #ffffff;"></i></a>
             </div>
         </nav>
     </header>
@@ -50,9 +50,11 @@
             <div class="detalles">
                 <h3>Detalles del Producto</h3>
                 <p> ¡Crecimiento del cabello clínicamente demostrado!
-Biomascarilla capilar que estimula el crecimiento de tu cabello, ayuda a disminuir la caída y repara la fibra capilar.
-No tiene ninguna contraindicación en personas embarazadas o bebés.
-Cuenta con un estudio clínico que certifica que estimula el crecimiento del cabello con su uso constante.</p>
+                    Biomascarilla capilar que estimula el crecimiento de tu cabello, ayuda a disminuir la caída y repara
+                    la fibra capilar.
+                    No tiene ninguna contraindicación en personas embarazadas o bebés.
+                    Cuenta con un estudio clínico que certifica que estimula el crecimiento del cabello con su uso
+                    constante.</p>
             </div>
 
             <button>Agregar al Carrito</button>
@@ -71,13 +73,14 @@ Cuenta con un estudio clínico que certifica que estimula el crecimiento del cab
             <div id="listaComentarios"></div>
 
             <form id="formComentario" method="POST" action="guardar_comentario.php">
-                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea name="textoComentario" id="textoComentario" placeholder="Escribe tu comentario..."
-                    required></textarea>
-                <button type="submit">Enviar comentario</button>
+                <input type="hidden" name="id_producto" value="5">
+
+                <input type="text" name="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea name="textoComentario" placeholder="Escribe tu opinión" required></textarea>
+                <button type="submit">Enviar Comentario</button>
             </form>
         </div>
-
+        <?php include 'mostrar_comentarios.php'; ?>
     </section>
     <!-- Pie de página -->
     <footer>

@@ -32,7 +32,7 @@
             <div class="icons">
                 <a href="carrito.html"><i class="fa-solid fa-cart-shopping carrito-icono"
                         style="color: #ffffff;"></i></a>
-                <a href="loguin.html"><i class="fa-solid fa-circle-user login-icono" style="color: #ffffff;"></i></a>
+                <a href="login.php"><i class="fa-solid fa-circle-user login-icono" style="color: #ffffff;"></i></a>
             </div>
         </nav>
     </header>
@@ -71,12 +71,15 @@
 
             <div id="listaComentarios"></div>
 
-            <form id="formComentario">
-                <input type="text" id="nombreUsuario" placeholder="Tu nombre" required>
-                <textarea id="textoComentario" placeholder="Escribe tu comentario..." required></textarea>
-                <button type="submit">Enviar comentario</button>
+            <form id="formComentario" method="POST" action="guardar_comentario.php">
+                <input type="hidden" name="id_producto" value="8">
+
+                <input type="text" name="nombreUsuario" placeholder="Tu nombre" required>
+                <textarea name="textoComentario" placeholder="Escribe tu opinión" required></textarea>
+                <button type="submit">Enviar Comentario</button>
             </form>
         </div>
+        <?php include 'mostrar_comentarios.php'; ?>
     </section>
     <!-- Pie de página -->
     <footer>

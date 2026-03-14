@@ -32,7 +32,7 @@
             <div class="icons">
                 <a href="carrito.html"><i class="fa-solid fa-cart-shopping carrito-icono"
                         style="color: #ffffff;"></i></a>
-                <a href="loguin.html"><i class="fa-solid fa-circle-user login-icono" style="color: #ffffff;"></i></a>
+                <a href="login.php"><i class="fa-solid fa-circle-user login-icono" style="color: #ffffff;"></i></a>
             </div>
         </nav>
     </header>
@@ -76,7 +76,7 @@
 
         <div class="tarjeta-producto" data-nombre="Acondicionador con Ceramidas" data-marca="Kaba" data-tipo="Dañado"
             data-precio="40000">
-            <a href="producto1.html" class="enlace-tarjeta">
+            <a href="producto1.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img1.png" alt="Acondicionador con Ceramidas">
                 </div>
@@ -92,7 +92,7 @@
 
         <div class="tarjeta-producto" data-nombre="Acondicionador con Romero Anyeluz" data-marca="Anyeluz"
             data-tipo="Todo tipo" data-precio="40000">
-            <a href="producto2.html" class="enlace-tarjeta">
+            <a href="producto2.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img2.png" alt="Acondicionador con Romero Anyeluz">
                 </div>
@@ -108,7 +108,7 @@
 
         <div class="tarjeta-producto" data-nombre="Acondicionador Kerat Ultra Force 300ml" data-marca="Recamier"
             data-tipo="Dañado" data-precio="31900">
-            <a href="producto3.html" class="enlace-tarjeta">
+            <a href="producto3.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img3.png" alt="Acondicionador Kerat Ultra Force 300ml">
                 </div>
@@ -125,7 +125,7 @@
 
         <div class="tarjeta-producto" data-nombre="Acondicionador Reparador SOS 450ml" data-marca="Kaba"
             data-tipo="Dañado / Seco" data-precio="80000">
-            <a href="producto4.html" class="enlace-tarjeta">
+            <a href="producto4.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img4.png" alt="Acondicionador Reparador SOS 450ml">
                 </div>
@@ -142,7 +142,7 @@
 
         <div class="tarjeta-producto" data-nombre="Biomascarilla Capilar" data-marca="Kaba" data-tipo="Seco / Dañado"
             data-precio="45000">
-            <a href="producto5.html" class="enlace-tarjeta">
+            <a href="producto5.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img5.png" alt="Biomascarilla Capilar">
                 </div>
@@ -159,7 +159,7 @@
 
         <div class="tarjeta-producto" data-nombre="Bioterapia Capilar con Romero y Bioelixir" data-marca="Anyeluz"
             data-tipo="Todo tipo" data-precio="43000">
-            <a href="producto6.html" class="enlace-tarjeta">
+            <a href="producto6.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img6.png" alt="Bioterapia Capilar con Romero y Bioelixir">
                 </div>
@@ -176,7 +176,7 @@
 
         <div class="tarjeta-producto" data-nombre="Booster Tratamiento Capilar Reparador" data-marca="La Poción"
             data-tipo="Dañado / Seco" data-precio="35000">
-            <a href="producto7.html" class="enlace-tarjeta">
+            <a href="producto7.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img7.png" alt="Booster Tratamiento Capilar Reparador">
                 </div>
@@ -192,7 +192,7 @@
 
         <div class="tarjeta-producto" data-nombre="Crema Dual para Peinar" data-marca="La Poción" data-tipo="Todo tipo"
             data-precio="35000">
-            <a href="producto8.html" class="enlace-tarjeta">
+            <a href="producto8.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img8.png" alt="Crema Dual para Peinar">
                 </div>
@@ -209,7 +209,7 @@
 
         <div class="tarjeta-producto" data-nombre="Duo de Miel Brillo Intenso" data-marca="Click Hair"
             data-tipo="Seco / Todo tipo" data-precio="117200">
-            <a href="producto9.html" class="enlace-tarjeta">
+            <a href="producto9.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img9.png" alt="Duo de Miel Brillo Intenso">
                 </div>
@@ -225,7 +225,7 @@
 
         <div class="tarjeta-producto" data-nombre="Energetizante Capilar" data-marca="Click Hair" data-tipo="Todo tipo"
             data-precio="46000">
-            <a href="producto10.html" class="enlace-tarjeta">
+            <a href="producto10.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img10.png" alt="Energetizante Capilar">
                 </div>
@@ -242,7 +242,7 @@
 
         <div class="tarjeta-producto" data-nombre="Mask Vegan Keratin Recamier 500g" data-marca="Recamier"
             data-tipo="Seco / Dañado" data-precio="54000">
-            <a href="producto11.html" class="enlace-tarjeta">
+            <a href="producto11.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img11.png" alt="Mask Vegan Keratin Recamier 500g">
                 </div>
@@ -258,7 +258,7 @@
 
         <div class="tarjeta-producto" data-nombre="Miel para el Cabello 50ml" data-marca="Click Hair"
             data-tipo="Seco / Todo tipo" data-precio="60000">
-            <a href="producto12.html" class="enlace-tarjeta">
+            <a href="producto12.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img12.png" alt="Miel para el Cabello 50ml">
                 </div>
@@ -275,7 +275,7 @@
 
         <div class="tarjeta-producto" data-nombre="Shampoo con Cebolla Anyeluz" data-marca="Anyeluz"
             data-tipo="Todo tipo" data-precio="45000">
-            <a href="producto13.html" class="enlace-tarjeta">
+            <a href="producto13.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img13.png" alt="Shampoo con Cebolla Anyeluz">
                 </div>
@@ -292,7 +292,7 @@
 
         <div class="tarjeta-producto" data-nombre="Shampoo Control Grasa" data-marca="La Poción" data-tipo="Grasa"
             data-precio="37500">
-            <a href="producto14.html" class="enlace-tarjeta">
+            <a href="producto14.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img14.png" alt="Shampoo Control Grasa">
                 </div>
@@ -309,7 +309,7 @@
 
         <div class="tarjeta-producto" data-nombre="Shampoo Crecimiento y Control Caída" data-marca="La Poción"
             data-tipo="Todo tipo" data-precio="45000">
-            <a href="producto15.html" class="enlace-tarjeta">
+            <a href="producto15.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img15.png" alt="Shampoo Crecimiento y Control Caída">
                 </div>
@@ -326,7 +326,7 @@
 
         <div class="tarjeta-producto" data-nombre="Shampoo de Miel Brillo Intenso" data-marca="Click Hair"
             data-tipo="Seco / Todo tipo" data-precio="44000">
-            <a href="producto16.html" class="enlace-tarjeta">
+            <a href="producto16.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img16.png" alt="Shampoo de Miel Brillo Intenso">
                 </div>
@@ -342,7 +342,7 @@
 
         <div class="tarjeta-producto" data-nombre="Shampoo Reparador SOS 450ml" data-marca="Kaba"
             data-tipo="Dañado / Seco" data-precio="80000">
-            <a href="producto17.html" class="enlace-tarjeta">
+            <a href="producto17.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img17.png" alt="Shampoo Reparador SOS 450ml">
                 </div>
@@ -359,7 +359,7 @@
 
         <div class="tarjeta-producto" data-nombre="Shampoo Vegan Keratin 1l" data-marca="Recamier"
             data-tipo="Seco / Dañado" data-precio="35900">
-            <a href="producto18.html" class="enlace-tarjeta">
+            <a href="producto18.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img18.png" alt="Shampoo Vegan Keratin 1l">
                 </div>
@@ -375,7 +375,7 @@
 
         <div class="tarjeta-producto" data-nombre="Shampoo Anticaspa" data-marca="Anyeluz" data-tipo="Caspa"
             data-precio="40000">
-            <a href="producto19.html" class="enlace-tarjeta">
+            <a href="producto19.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img19.png" alt="Shampoo Anticaspa">
                 </div>
@@ -392,7 +392,7 @@
 
         <div class="tarjeta-producto" data-nombre="Suero Reconstructor" data-marca="Click Hair"
             data-tipo="Dañado / Seco" data-precio="38900">
-            <a href="producto20.html" class="enlace-tarjeta">
+            <a href="producto20.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img20.png" alt="Suero Reconstructor">
                 </div>
@@ -409,7 +409,7 @@
 
         <div class="tarjeta-producto" data-nombre="Terapia Capilar de Crecimiento Anyeluz" data-marca="Anyeluz"
             data-tipo="Todo tipo" data-precio="46000">
-            <a href="producto21.html" class="enlace-tarjeta">
+            <a href="producto21.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img21.png" alt="Terapia Capilar de Crecimiento Anyeluz">
                 </div>
@@ -426,7 +426,7 @@
 
         <div class="tarjeta-producto" data-nombre="Tratamiento Vegan Keratin Semi Di Lino" data-marca="Recamier"
             data-tipo="Seco / Dañado" data-precio="48900">
-            <a href="producto22.html" class="enlace-tarjeta">
+            <a href="producto22.php" class="enlace-tarjeta">
                 <div class="imagenes">
                     <img src="img/img22.jpg" alt="Tratamiento Vegan Keratin Semi Di Lino">
                 </div>

@@ -32,7 +32,7 @@
             <div class="icons">
                 <a href="carrito.html"><i class="fa-solid fa-cart-shopping carrito-icono"
                         style="color: #ffffff;"></i></a>
-                <a href="loguin.html"><i class="fa-solid fa-circle-user login-icono" style="color: #ffffff;"></i></a>
+                <a href="login.php"><i class="fa-solid fa-circle-user login-icono" style="color: #ffffff;"></i></a>
             </div>
         </nav>
     </header>
@@ -71,7 +71,7 @@
 
             <div id="listaComentarios"></div>
 
-            <form action="guardar_comentario.php" method="POST">
+            <form id="formComentario" method="POST" action="guardar_comentario.php">
                 <input type="hidden" name="id_producto" value="1">
 
                 <input type="text" name="nombreUsuario" placeholder="Tu nombre" required>
@@ -79,8 +79,9 @@
                 <button type="submit">Enviar Comentario</button>
             </form>
         </div>
-
+        <?php include 'mostrar_comentarios.php'; ?>
     </section>
+    
     <!-- Pie de página -->
     <footer>
         <p>&copy; 2025 VAL DISTRIBUIDORA DE BELLEZA. Todos los derechos reservados.</p>
