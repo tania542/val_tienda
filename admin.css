@@ -1,0 +1,241 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdf6ec;
+    color: #2f3a44;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    background: #414e5e;
+    padding: 15px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.texto-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-logo h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 36px;
+    letter-spacing: 10px;
+    margin: 0;
+    color: #fee3b6;
+}
+
+/* productos capilares */
+.texto-logo span {
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-top: 4px;
+    color: #e6c48a;
+    font-weight: 300;
+}
+
+/* BUSCADOR */
+.buscar {
+    display: flex;
+}
+
+.buscar input {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    width: 220px;
+}
+
+.buscar button {
+    background: #414e5e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+/* ICONOS */
+.icons a {
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+/*barra*/
+.productos {
+    text-align: center;
+    padding: 60px 10px;
+    background-color: #414e5e;
+    color: #fee3b6;
+    border-radius: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* BOTON AGREGAR */
+
+.container h3 {
+    background: #fee3b6;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: auto;
+}
+
+
+.form-producto {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.form-producto input,
+.form-producto select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-producto input[type="number"] {
+    width: 140px;
+}
+
+.form-producto input[type="text"] {
+    width: 140px;
+}
+
+.form-producto select {
+    width: 140px;
+}
+
+.form-producto input[type="file"] {
+    width: 140px;
+}
+
+.form-producto button {
+    background: #fee3b6;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-producto button:hover {
+    background: #c9a36a;
+}
+
+/* TABLA */
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabla th {
+    background: #3f4f63;
+    color: white;
+    padding: 12px;
+}
+
+.tabla td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* BOTONES */
+
+.btn-editar {
+    background: #e2c58f;
+    padding: 6px 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.btn-eliminar {
+    background: #e2c58f;
+    padding: 6px 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.btn-editar:hover,
+.btn-eliminar:hover {
+    background: #d1b176;
+}
+
+/* LOGOUT */
+.logout {
+    float: right;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #fee3b6;
+    color: #414e5e;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.comentarios {
+    float: left;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #fee3b6;
+    color: #414e5e;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

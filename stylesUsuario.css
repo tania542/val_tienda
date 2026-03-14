@@ -1,0 +1,334 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdf6ec;
+    color: #2f3a44;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    background: #414e5e;
+    padding: 15px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.texto-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-logo h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 36px;
+    letter-spacing: 10px;
+    margin: 100;
+    color: #fee3b6;
+}
+
+/* productos capilares */
+.texto-logo span {
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-top: 4px;
+    color: #e6c48a;
+    font-weight: 300;
+}
+
+/* BUSCADOR */
+.buscar {
+    display: flex;
+}
+
+.buscar input {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    width: 220px;
+}
+
+.buscar button {
+    background: #414e5e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+/* ICONOS */
+.icons a {
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+/*barra*/
+.productos {
+    text-align: center;
+    padding: 60px 20px; 
+    background-color: #414e5e;
+    color: #e6c48a;
+    border-radius: 0; 
+}
+
+
+
+.contendor-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.formulario {
+    position: relative;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.volver-login {
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.volver-login:hover {
+  transform: scale(1.1);
+}
+
+
+.boton {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #e6c48a;
+    color: #414e5e;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+ 
+.boton:hover {
+    background-color: #d59eb6;
+}
+
+.boton:active {
+    background-color: #d59eb6;
+    color: white;
+}
+.formulario h1 {
+    color: #414e5e;
+    margin-bottom: 20px;
+}
+label {
+    margin-bottom: 5px;
+    color: black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+/* Link de olvidé contraseña */
+a[href*="olvideContrasena"] {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* Botón de acceder */
+.botonac {
+    background-color: white;
+    color: #d78ca6;
+    font-size: 16px;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.botonac:hover {
+    background-color: #ffe4f2;
+}
+footer {
+    background-color: #e9cbe0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 15px;
+    }
+    
+    footer p {
+    margin: 0;
+    }
+    .btn-contacto {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        transition: transform 0.3s, background-color 0.3s;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+      }
+      
+      .btn-contacto img {
+        width: 50px;
+        height: 50px;
+      }
+      
+      .btn-contacto:hover{
+        background-color: #e9cbe0;
+        transform: scale(1.1);
+      }
+
+     .error-message {
+        display: block;  /* Hace que ocupe toda la línea */
+        color: red;
+        font-size: 0.9rem;
+        margin-top: 4px;
+        margin-bottom: 8px; /* Para separar del enlace */
+      }   
+
+      .mensaje {
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        display: none;
+        }
+
+        .mensaje.exito {
+        background-color: #d4edda;
+        color: #155724;
+        }
+
+        .mensaje.error {
+        background-color: #f8d7da;
+        color: #721c24;
+        }
+
+
+/* RESPONSIVE DESIGN */
+
+/* Tablets (max-width: 991px) */
+@media (max-width: 991px) {
+
+    body {
+        padding-top: 200px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .buscar {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .icons {
+        margin-top: 10px;
+    }
+
+    .registro-form {
+        padding: 25px;
+        max-width: 90%;
+    }
+
+}
+
+/* Smartphones (max-width: 600px) */
+@media (max-width: 600px) {
+
+    body {
+        padding-top: 250px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        font-size: 13px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .btn.submit {
+        font-size: 15px;
+    }
+}
