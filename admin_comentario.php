@@ -13,14 +13,14 @@ $comentarios = mysqli_query($conexion, "SELECT * FROM comentarios");
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="icon" type="image/png" href="img/logo.png">
-    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="css/admin.css">
 </head>
 
 <body>
     <!-- Encabezado -->
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="img/logo.png" alt="logo">
 
                 <div class="texto-logo">
